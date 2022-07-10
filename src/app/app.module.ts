@@ -12,6 +12,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
+import { ProcuctCrudComponent } from './views/procuct-crud/procuct-crud.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HomeComponent } from './views/home/home.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    ProcuctCrudComponent
   ],
   imports: [
     BrowserModule,
