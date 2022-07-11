@@ -1,5 +1,4 @@
-mat-sidenav{
-    background-color: #9d3fb5;
+mat-sidenav{    
     width: 200px;
 }
 
@@ -12,5 +11,6 @@ mat-sidenav a:hover {
 }
 
 mat-sidenav-content{
+    height: 100%;
     padding:16px;
 }
