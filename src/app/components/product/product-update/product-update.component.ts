@@ -16,7 +16,7 @@ export class ProductUpdateComponent implements OnInit {
   constructor(private productService:ProductService, 
     private router:Router,
     private route: ActivatedRoute) {
-      const id = this.route.snapshot.paramMap.get('id') || "0" ;
+      const id = this.route.snapshot.paramMap.get('id') || "-1" ;
       this.productService.readById(id).subscribe(product=>
        this.product = product ); 
     }
