@@ -27,6 +27,7 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProcuctCrudComponent } from './views/procuct-crud/procuct-crud.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 registerLocaleData(localePt);
 
@@ -42,7 +43,8 @@ registerLocaleData(localePt);
     ProcuctCrudComponent,
     ProductCreateComponent,
     ProductReadComponent,
-    ProductReadExComponent
+    ProductReadExComponent,
+    ProductUpdateComponent
   ],
   imports: [
     BrowserModule,
